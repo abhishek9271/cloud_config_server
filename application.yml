@@ -9,12 +9,12 @@ eureka:
     
     
 microservices:
-  order-services:
+  order-service:
     endpoints:
       endpoint:
         uri: http://localhost:8081/book/bookOrder
         
-  payment-services:
+  payment-service:
     endpoints:
       endpoint:
         uri: http://localhost:8081/payment/doPayment
