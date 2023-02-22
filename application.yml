@@ -17,4 +17,4 @@ microservices:
   payment-service:
     endpoints:
       endpoint:
-        uri: http://localhost:8081/payment/doPayment
+        uri: http://PAYMENT-SVC/payment/payForOrder
